@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+.urna {
+    display: flex;
+    justify-content: space-between;
+    background-color: #dbd5c9;
+    padding: 1.5rem 3rem;
+    border-style: outset;
+    margin: 5% 15%;
+}
+
+.teclado {
+    width: 500px;
+    height: 440px;
+    background: #403a3ad8;
+    border-style: inset;
+    border-width: 6px;
+    padding-top: 60px;
+}
+
+.teclado--linha{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.teclado--botao{
+    align-items: center;
+    background-color: black;
+    border-radius: 7px;
+    color: whitesmoke;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 0.45rem;
+    padding: 0.5rem 1.5rem 0.25rem 0.5rem;
+    box-shadow: 5px -5px 2px #222222;
+}
+
+.teclado--botao.especial {
+    width: auto;
+    padding: 0.25rem 0.25rem 1rem 0.25rem;
+    align-self: flex-end;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: black;
+  }
+
+.branco {
+    background: whitesmoke;
+
+}
+
+.laranja {
+    background: orangered;
+
+}
+
+.teclado--botao.especial.verde {
+    background: green;
+    padding: 0.5rem 0.25rem 1.5rem 0.25rem;
+}
